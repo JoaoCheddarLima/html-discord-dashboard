@@ -1,0 +1,29 @@
+{
+  "name": "html-discord-dashboard",
+  "version": "1.0.0",
+  "description": "dashboard for using on discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JVRL18/html-discord-dashboard.git"
+  },
+  "type": "module",
+  "keywords": [
+    "html",
+    "discord",
+    "discordjs",
+    "dashboard"
+  ],
+  "author": "joao-bot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JVRL18/html-discord-dashboard/issues"
+  },
+  "homepage": "https://github.com/JVRL18/html-discord-dashboard#readme",
+  "dependencies": {
+    "pretty-ms": "^8.0.0"
+  }
+}
