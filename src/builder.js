@@ -35,7 +35,7 @@ class Dashboard {
             </div>
         
             <div class="dailyStreak"> 
-                ${last7.map(e => e < 0 ? `<div class="btn btn-success fw-bold">-</div>` : `<div class="btn btn-danger fw-bold">${prettyMilliseconds(e)}</div> `).join('')}
+                ${last7.map(e => e <= 0 ? `<div class="btn btn-danger fw-bold">N/A</div>` : `<div class="btn btn-success fw-bold">${prettyMilliseconds(e)}</div> `).join('')}
             </div>
         
         </div>
