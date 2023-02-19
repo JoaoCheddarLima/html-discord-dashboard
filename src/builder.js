@@ -5,7 +5,12 @@ class Dashboard {
         this.fields = []
     }
 
-    addField(data) {
+    addField(data = {
+        username: String,
+        total: Number,
+        average: Number,
+        last7: []
+    }) {
         const { username, total, average, last7 } = data
 
         const field = `
